@@ -409,7 +409,7 @@ footer a { color: var(--muted); }
       <div class="stat" style="--c: var(--pink)"><b>9</b><span>хуков</span></div>
       <div class="stat" style="--c: var(--violet)"><b>118</b><span>записей памяти</span></div>
       <div class="stat" style="--c: var(--amber)"><b>$100</b><span>в месяц за Claude</span></div>
-      <div class="stat" style="--c: var(--cyan)"><b>5,8</b><span>млрд токенов за 30 дней</span></div>
+      <div class="stat" style="--c: var(--cyan)"><b>5,85</b><span>млрд токенов за месяц</span></div>
     </div>
     <div class="parts">
       <a href="#claude-code" style="--c: var(--cyan)"><span class="n">01</span><strong>Как устроено</strong><span>схемы, токены, деньги, оценка</span></a>
@@ -688,7 +688,7 @@ footer a { color: var(--muted); }
         <div class="bar"><div class="name">поиск по разговорам</div><div class="track"><div class="fill" style="width: 24.7%; --c: var(--amber)"></div></div><div class="val">39</div></div>
         <div class="bar"><div class="name">расшифровка аудио</div><div class="track"><div class="fill" style="width: 22.2%; --c: var(--amber)"></div></div><div class="val">35</div></div>
         <div class="bar"><div class="name">где ещё старая цифра</div><div class="track"><div class="fill" style="width: 20.9%; --c: var(--amber)"></div></div><div class="val">33</div></div>
-        <p class="note">Правило системы: где хватает скрипта, сначала скрипт. Он быстрее, дешевле и не фантазирует.</p>
+        <p class="note">Отладочные прогоны маршрутизатора не показаны. Правило системы: где хватает скрипта, сначала скрипт. Он быстрее, дешевле и не фантазирует.</p>
         <div style="margin-top: 10px">
           <div class="kicker" style="--k: var(--pink)">главный урок</div>
           <p style="margin: 8px 0 0; font-size: 14px">Агента-дирижёра звали командой <code>/работаем</code>. В 152 проверенных разговорах его не запустили ни разу: Максим пишет задачу словами, а не набирает команды. Теперь дирижёр это сама основная сессия, а помощников подсказывает автомат.</p>
@@ -702,12 +702,12 @@ footer a { color: var(--muted); }
     <div class="head">
       <div class="kicker" style="--k: var(--violet)">какие ИИ работают</div>
       <h2>Один главный мозг и несколько узких</h2>
-      <p class="sub">Доли по токенам за 30 дней, 17.10–16.11.2026.</p>
+      <p class="sub">Доли по токенам за месяц, 17.10–16.11.2026.</p>
     </div>
     <div class="tiles t3">
-      <div class="tile s-v"><span class="led">основной</span><b>Claude Opus 5.5</b><span class="big">95,5%</span><span>все разговоры и почти все агенты</span></div>
-      <div class="tile s-v"><span class="led">прошлая версия</span><b>Claude Opus 5</b><span class="big">4,3%</span><span>до перехода на Opus 5.5</span></div>
-      <div class="tile s-v"><span class="led">эпизодически</span><b>Sonnet, Haiku и др.</b><span class="big">0,2%</span><span>отдельные запросы помощников</span></div>
+      <div class="tile s-v"><span class="led">основной</span><b>Claude Opus 5.5</b><span class="big">94,9%</span><span>почти все разговоры и агенты</span></div>
+      <div class="tile s-v"><span class="led">прошлая версия</span><b>Claude Opus 5</b><span class="big">5,0%</span><span>параллельно в части сессий, в основном до 28.10</span></div>
+      <div class="tile s-v"><span class="led">эпизодически</span><b>Sonnet, Haiku и др.</b><span class="big">0,2%</span><span>отдельные запросы</span></div>
       <div class="tile s-ok"><span class="led">на Маке</span><b>Whisper large-v3-turbo</b><span>расшифровка аудио в текст, без интернета, бесплатно</span></div>
       <div class="tile s-ok"><span class="led">на Маке</span><b>Silero</b><span>читает ответы вслух, без интернета</span></div>
       <div class="tile s-part"><span class="led">облако</span><b>Flux (Cloudflare)</b><span>картинки, бесплатный дневной лимит</span></div>
@@ -718,31 +718,31 @@ footer a { color: var(--muted); }
   <section class="block" id="tokens">
     <div class="head">
       <div class="kicker" style="--k: var(--amber)">токены и деньги</div>
-      <h2>5,8 млрд токенов за 30 дней за $100</h2>
-      <p class="sub">17.10–16.11.2026: 29 активных дней, 31 137 обращений к модели. Посчитано скриптом по истории разговоров.</p>
+      <h2>5,85 млрд токенов за месяц за $100</h2>
+      <p class="sub">17.10–16.11.2026: 29 активных дней, 31 497 обращений к модели. Посчитано скриптом по истории разговоров.</p>
     </div>
     <div class="money">
       <div class="panel vsbar">
         <div class="kicker" style="--k: var(--amber)">из чего состоят токены</div>
         <div class="stack" role="img" aria-label="Чтение из кэша 96 процентов, запись в кэш 3,5 процента, ответ 0,6 процента">
-          <div style="--c: var(--cyan); flex: 5531"></div>
-          <div style="--c: var(--violet); flex: 203"></div>
-          <div style="--c: var(--pink); flex: 34"></div>
+          <div style="--c: var(--cyan); flex: 5610"></div>
+          <div style="--c: var(--violet); flex: 204"></div>
+          <div style="--c: var(--pink); flex: 36"></div>
         </div>
         <div class="memkey" style="grid-column: auto">
-          <span style="--c: var(--cyan)"><i></i>перечитывание из кэша <em>5,53 млрд · 96%</em></span>
-          <span style="--c: var(--violet)"><i></i>запись в кэш <em>203 млн</em></span>
-          <span style="--c: var(--pink)"><i></i>ответы Claude <em>33,7 млн</em></span>
+          <span style="--c: var(--cyan)"><i></i>перечитывание из кэша <em>5,61 млрд · 96%</em></span>
+          <span style="--c: var(--violet)"><i></i>запись в кэш <em>204 млн</em></span>
+          <span style="--c: var(--pink)"><i></i>ответы Claude <em>35,6 млн</em></span>
         </div>
         <div class="kicker" style="--k: var(--amber); margin-top: 6px">кто тратит</div>
-        <div class="vsrow" style="--c: var(--white)"><b>2,75 млрд<small>основная сессия</small></b><div class="track"><div class="fill" style="width: 47.8%; --c: var(--white)"></div></div></div>
-        <div class="vsrow" style="--c: var(--lime)"><b>3,01 млрд<small>агенты-помощники</small></b><div class="track"><div class="fill" style="width: 52.2%; --c: var(--lime)"></div></div></div>
-        <p class="note">в обычный день 143 млн токенов, в самый тяжёлый 570 млн</p>
+        <div class="vsrow" style="--c: var(--white)"><b>2,82 млрд<small>основная сессия</small></b><div class="track"><div class="fill" style="width: 48.1%; --c: var(--white)"></div></div></div>
+        <div class="vsrow" style="--c: var(--lime)"><b>3,03 млрд<small>агенты-помощники</small></b><div class="track"><div class="fill" style="width: 51.9%; --c: var(--lime)"></div></div></div>
+        <p class="note">в обычный день 147 млн токенов, в самый тяжёлый 671 млн (сутки по Москве)</p>
       </div>
       <div class="panel vsbar">
         <div class="kicker" style="--k: var(--amber)">сколько это стоит</div>
-        <div class="vsrow" style="--c: var(--lime)"><b>$100<small>подписка Max 5x, месяц</small></b><div class="track"><div class="fill" style="width: 3.2%; --c: var(--lime)"></div></div></div>
-        <div class="vsrow" style="--c: var(--pink)"><b>≈ $3 100<small>те же токены по ценам API</small></b><div class="track"><div class="fill" style="width: 100%; --c: var(--pink)"></div></div></div>
+        <div class="vsrow" style="--c: var(--lime)"><b>$100<small>подписка Max 5x, месяц</small></b><div class="track"><div class="fill" style="width: 3.1%; --c: var(--lime)"></div></div></div>
+        <div class="vsrow" style="--c: var(--pink)"><b>≈ $3 200<small>те же токены по ценам API</small></b><div class="track"><div class="fill" style="width: 100%; --c: var(--pink)"></div></div></div>
         <ul class="cost-list">
           <li><div>Claude Max 5x<span>Claude, агенты, все токены; докупка сверх лимита выключена</span></div><b>$100 / мес</b></li>
           <li><div>Cloudflare Workers AI<span>картинки Flux в бесплатном дневном лимите</span></div><b>$0</b></li>
@@ -862,7 +862,7 @@ footer a { color: var(--muted); }
       <span style="--c: var(--amber)"><i></i>по ключу API</span>
       <span style="--c: var(--gray)"><i class="dash"></i>выключено</span>
     </div>
-    <div class="simple"><span class="tag">простыми словами</span><p>Claude Code входит в Claude через аккаунт с подпиской, как в приложение. К остальным сервисам он ходит по ключам: ключ это пароль для программы. Ключи лежат в одном файле .env, который никогда не попадает в историю и никуда не отправляется. Google-документы по правилу только читаются, остальное подключено так же.</p></div>
+    <div class="simple"><span class="tag">простыми словами</span><p>Claude Code входит в Claude через аккаунт с подпиской, как в приложение. К остальным сервисам он ходит по ключам: ключ это пароль для программы. Ключи лежат в файлах, которые git не видит (.env и токен Google), поэтому они не попадают в историю и никуда не отправляются. Google-документы по правилу только читаются, остальное подключено так же.</p></div>
   </section>
 
   <section class="block" id="hooks">
@@ -946,17 +946,17 @@ footer a { color: var(--muted); }
       <div style="--c: var(--lime)">
         <h3>работает</h3>
         <div class="metrics">
-          <div class="metric"><b>13% → 1,4%</b><span>доля поправок Максима: <em>худшая неделя октября → неделя 09.11</em> (неполная, грубый счёт)</span></div>
+          <div class="metric"><b>16% → 1,4%</b><span>доля поправок Максима: <em>худшая неделя октября → неделя 09.11</em> (неполная, грубый счёт)</span></div>
           <div class="metric"><b>154 · 147</b><span>вызовов <em>разведчика и сверщика</em> за 3,5 недели</span></div>
           <div class="metric"><b>12/12</b><span>на «перепроверь» сверщика <em>зовут всегда</em></span></div>
           <div class="metric"><b>308</b><span>коммитов в git: <em>любой откат</em></span></div>
-          <div class="metric"><b>$100</b><span>за нагрузку, которая по API стоила бы <em>≈ $3 100</em></span></div>
+          <div class="metric"><b>$100</b><span>за нагрузку, которая по API стоила бы <em>≈ $3 200</em></span></div>
         </div>
       </div>
       <div style="--c: var(--pink)">
         <h3>слабо</h3>
         <div class="metrics">
-          <div class="metric"><b>55%</b><span>возвратов «документ без сверки» закрыты фразой <em>«сверка не нужна»</em></span></div>
+          <div class="metric"><b>54%</b><span>возвратов «документ без сверки» закрыты фразой <em>«сверка не нужна»</em></span></div>
           <div class="metric"><b>1 из 74</b><span>навыков системы вызван через Skill с 22.10, <em>остальные лежат</em></span></div>
           <div class="metric"><b>7 из 15</b><span>агентов <em>без вызовов</em> с 22.10</span></div>
           <div class="metric"><b>27 / 83</b><span>автопилот до починки 22.10: удачи против падений; <em>выключен</em></span></div>
@@ -1045,7 +1045,7 @@ footer a { color: var(--muted); }
       <div class="qa-item wide">
         <span class="q">«Правильно, что под каждую штуку новая папка и всё загружаю заново?»</span>
         <b>Нет. Заведи одну папку-дом и открывай всегда её</b>
-        <p>Память, правила и история разговоров в Claude Code привязаны к папке, которую ты открыла. Например, память хранится в <code>~/.claude/projects/</code> в отдельной папке под каждый адрес, то есть «по адресу» открытой папки. Открыла другую папку, и Claude видит другую память и другую историю, а прошлое приходится загружать заново. В одной папке-доме всё лежит рядом: Claude сам находит нужные материалы и связывает темы, например монтаж с твоим режимом и здоровьем.</p>
+        <p>Правила проекта, память и история разговоров в Claude Code привязаны к папке, которую ты открыла. Например, память хранится в <code>~/.claude/projects/</code> в отдельной папке под каждый адрес, то есть «по адресу» открытой папки. Открыла другую папку, и Claude видит другую память и другую историю, а прошлое приходится загружать заново. В одной папке-доме всё лежит рядом: Claude сам находит нужные материалы и связывает темы, например монтаж с твоим режимом и здоровьем. Открывай всегда корень папки-дома, а не подпапку. Общие правила о себе можно положить в <code>~/.claude/CLAUDE.md</code>: их Claude видит в любой папке.</p>
       </div>
       <div class="qa-item">
         <span class="q">«Ты в чате или прям в коде?»</span>
@@ -1074,7 +1074,7 @@ footer a { color: var(--muted); }
       <div><b>Темы и материалы</b>подпапки: монтаж, здоровье, жизнь, работа</div>
       <div><b>Помощники</b><code>.claude/agents</code> в той же папке</div>
       <div><b>Ритуалы и сценарии</b><code>.claude/commands</code> и <code>.claude/skills</code></div>
-      <div><b>Память</b>Claude Code ведёт сам, она привязана к папке</div>
+      <div><b>Память</b>Claude Code ведёт сам, она привязана к папке-дому</div>
       <div><b>Настоящий код</b>приложение или сайт: отдельная папка со своим <code>CLAUDE.md</code></div>
     </div>
 
@@ -1087,15 +1087,15 @@ footer a { color: var(--muted); }
           <div class="paste-head"><span>вставь в Claude</span><button class="copy" type="button">копировать</button></div>
           <p class="prompt">У меня несколько папок, которые я открывала в Claude Code по отдельности: [перечисли их, например ~/Монтаж, ~/Здоровье, ~/Жизнь]. Помоги собрать их в одну систему.
 
-1. Сначала ничего не трогай: посмотри, что лежит в каждой папке, и покажи план, что куда переедет.
+1. Сначала ничего не трогай: посмотри, что лежит в каждой папке, сколько она весит и есть ли внутри .git, и покажи план, что куда переедет.
 2. После моего «да» создай одну папку-дом с подпапками по темам и скопируй туда материалы. Ничего не удаляй, старые папки оставь как есть, пока я всё не проверю.
-3. Если в старых папках есть файлы CLAUDE.md или агенты в .claude/agents, собери их в один CLAUDE.md и одну папку .claude/agents в корне. Повторы объедини.
-4. Посмотри память старых проектов в ~/.claude/projects и перенеси важное в память нового.
+3. Если в старых папках есть CLAUDE.md, папка .claude (агенты, команды, навыки, настройки) или файлы .mcp.json, .env, CLAUDE.local.md, собери их в корне папки-дома. Повторы объедини.
+4. Скопируй (не перемещай) важное из памяти старых проектов в ~/.claude/projects в файл 00-Дашборд/перенос-памяти.md в папке-доме. В память перенесём, когда я открою новую папку.
 5. В конце скажи, какую папку мне теперь открывать в Claude Code.</p>
         </div>
         <div class="result">
           <div class="ok"><span class="lab">получилось, если</span>ты открываешь одну папку, и Claude отвечает и про монтаж, и про здоровье без загрузки материалов.</div>
-          <div class="tip"><span class="lab">подсказка</span>старые папки удали только через пару недель, когда убедишься, что всё на месте.</div>
+          <div class="tip"><span class="lab">подсказка</span>старые папки удали только через пару недель, когда убедишься, что всё на месте. Видео при копировании займёт место дважды: проверь, хватает ли диска.</div>
         </div>
       </div>
     </article>
@@ -1173,14 +1173,14 @@ footer a { color: var(--muted); }
         <div><div class="n">00</div><span class="stage">вечер</span></div>
         <div class="g-body">
           <h3>Установка: редактор, Claude Code и папка</h3>
-          <p style="color: var(--amber)">Claude Code у тебя уже стоит, так что из этого шага нужен только последний пункт: открыть папку-дом.</p>
+          <p style="color: var(--amber)">Claude Code у тебя уже стоит, так что из этого шага нужны пункты 3 и 4: открыть папку-дом и Claude Code в ней.</p>
           <p><span class="lab">зачем</span>Claude Code живёт внутри редактора VS Code. Слева видны твои файлы, справа разговор с Claude. Так ты всегда видишь, что он делает.</p>
           <div><span class="lab">что сделать руками</span>
             <ol class="do">
               <li>Скачай VS Code с сайта code.visualstudio.com и установи как обычную программу.</li>
               <li>Открой VS Code, слева найди значок расширений (четыре квадратика), в поиске набери «Claude Code» и установи расширение от Anthropic.</li>
-              <li>Открой панель Claude Code и войди своим аккаунтом Claude с подпиской.</li>
               <li>Создай пустую папку, например «Моя система», и открой её в VS Code через меню File → Open Folder.</li>
+              <li>Открой Claude Code: нажми ⌘⇧P (на Windows Ctrl+Shift+P) и выбери «Claude Code: Open in New Tab». Войди аккаунтом Claude с подпиской, вход откроется в браузере.</li>
               <li>Вставь в Claude первое сообщение ниже.</li>
             </ol>
           </div>
@@ -1263,6 +1263,7 @@ footer a { color: var(--muted); }
 2. Создай файл .gitignore, чтобы в историю не попадали секреты (файл .env) и сканы личных документов.
 3. Сделай первый снимок.
 4. Настрой автоматический снимок каждый день в 23:30, даже если я забуду. Выбери способ под мой компьютер.
+5. В файле ~/.claude/settings.json поставь cleanupPeriodDays 365: по умолчанию Claude Code стирает историю разговоров через 30 дней, а мне она нужна дольше.
 
 Потом объясни простыми словами, как мне вернуть старую версию файла, если понадобится.</p>
           </div>
@@ -1312,7 +1313,7 @@ footer a { color: var(--muted); }
           </div>
           <div class="result">
             <div class="ok"><span class="lab">получилось, если</span>неделю пользуешься. Что-то раздражает, пишешь «поправь /morning: …».</div>
-            <div class="tip"><span class="lab">подсказка</span>у Максима ритуалы, которые надо не забыть набрать, со временем отваливались. Это нормально, оставь те, что прижились.</div>
+            <div class="tip"><span class="lab">подсказка</span>у Максима ритуалы, которые надо не забыть набрать, со временем отваливались. Это нормально, оставь те, что прижились. Если команда не находится, открой новый разговор.</div>
           </div>
         </div>
       </article>
@@ -1356,7 +1357,7 @@ footer a { color: var(--muted); }
           </div>
           <div class="result">
             <div class="ok"><span class="lab">получилось, если</span>прогнала через <code>/против</code> одно настоящее решение и стало немного неуютно.</div>
-            <div class="tip"><span class="lab">подсказка</span>решение всё равно принимаешь ты. Дело оппонента найти дыры, а не решить за тебя.</div>
+            <div class="tip"><span class="lab">подсказка</span>решение всё равно принимаешь ты. Дело оппонента найти дыры, а не решить за тебя. Если /против пишет, что агент не найден, открой новый разговор.</div>
           </div>
         </div>
       </article>
@@ -1595,7 +1596,7 @@ tools: Read, Grep, Glob
     </div>
     <ol class="next">
       <li><b>Проверка 10.12</b><span>подсказки «картинки» и «трип» сузили 12.11; если снова ноль, удалить</span></li>
-      <li><b>Сверка без отписок</b><span>55% возвратов закрыты фразой «сверка не нужна»: разобрать, где это правда</span></li>
+      <li><b>Сверка без отписок</b><span>54% возвратов закрыты фразой «сверка не нужна», с 07.11 уже 17 из 21: разобрать, где это правда</span></li>
       <li><b>Одна метрика здоровья</b><span>доля поправок по неделям в отчёт /doctor</span></li>
       <li><b>Бумага в систему</b><span>фото ежедневника → план и факт в today.md</span></li>
       <li><b>Jira на чтение</b><span>только если пустят рабочая сеть и безопасность</span></li>
@@ -1604,8 +1605,8 @@ tools: Read, Grep, Glob
   </section>
 
   <footer>
-    <p>Источник: файлы и логи Life OS на 16.11.2026. Вызовы агентов, движков и маршрутизатора: скрипт по истории разговоров с 22.10.2026. Токены и цена по API: скрипт по истории за 17.10–16.11.2026, цены API из справки Claude Code. Доля поправок и возвраты хука: замер 12.11.2026.</p>
-    <p>Цены подписки: <a href="https://support.claude.com/en/articles/11049744-how-much-does-the-max-plan-cost">справка Anthropic о Max</a>. Страны: <a href="https://www.anthropic.com/supported-countries">anthropic.com/supported-countries</a>. Диктовка: <a href="https://code.claude.com/docs/en/voice-dictation">документация Claude Code</a>.</p>
+    <p>Источник: файлы и логи Life OS на 16.11.2026. Вызовы агентов, движков и маршрутизатора: скрипт по истории разговоров с 22.10.2026. Токены и цена по API: скрипт по истории за 17.10–16.11.2026 (сутки по Москве), цены API сверены с platform.claude.com 16.11. Доля поправок и возвраты хука: замер 12.11.2026.</p>
+    <p>Цены подписки: <a href="https://claude.com/pricing">claude.com/pricing</a>. Страны: <a href="https://www.anthropic.com/supported-countries">anthropic.com/supported-countries</a>. Диктовка: <a href="https://code.claude.com/docs/en/voice-dictation">документация Claude Code</a>.</p>
     <p>Имена коллег, рабочие данные и личные подробности сюда не вынесены.</p>
   </footer>
 </div>
